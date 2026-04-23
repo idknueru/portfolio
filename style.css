@@ -27,10 +27,7 @@
 
 :root{
     --white: #ffffff;
-    --lightest-green:#cde7ca;
-    --lighter-green: #b2d4b6;
-    --green: #90b493;
-    --greyish-green: #728370;
+    --black: #000000;
     --grey: #4b514a;
 
     --font-size-small: 1.8rem;
@@ -43,7 +40,7 @@
 }
 
 body{
-    background-color: var(--lighter-green);
+    background-color: var(--black);
     color: var(--white);
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
