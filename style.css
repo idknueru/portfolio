@@ -134,7 +134,7 @@ h2{
     margin-bottom: var(--gutter-medium);
 }
 
-h2::after {
+h2::after{
     content: '';
     display: block;
     height: 2px;
@@ -148,7 +148,7 @@ h3 {
     margin-bottom: var(--gutter-small);
 }
 
-@media(max-width: 500px) {
+@media(max-width: 500px){
     .heading-primary {
         font-size: var(--font-size-large);
     }
@@ -166,7 +166,7 @@ p {
     margin: var(--gutter-small-1) 0;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 900px){
     p { 
         max-width: var(--container-small-width);
     }
