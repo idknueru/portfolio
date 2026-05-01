@@ -5,6 +5,13 @@
     src: url('./fonts/Lato-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Hk Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+}
+
 @font-face{
     font-family: 'Lato';
     font-style: italic;
@@ -416,7 +423,12 @@ a{
     height: 4rem;
 }
 
-
+.reference{
+    display: flex;
+    justify-content: center;
+    padding: var(--gutter-normal);
+    font-family: 'Hk Grotesk';
+}
 
 @media(max-width: 500px){
     .footer{
